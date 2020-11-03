@@ -146,8 +146,7 @@ STATICFILES_DIRS = [
 ]
 
 DEFAULT_FILE_STORAGE = 'abhi.storage_backends.MediaStorage'
-STATIC_ROOT = os.path.join(BASE_DIR , 'staticfiles')
-MEDIA_ROOT = os.path.join(BASE_DIR , 'staticfiles/media')
+
 
 
 
